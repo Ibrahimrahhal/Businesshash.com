@@ -1,0 +1,46 @@
+body {
+
+  margin: 0;
+padding: 0;
+
+}
+
+.hero-lg{
+
+height: 80vh;
+width: 100vw;
+
+}
+
+.hero-sm {
+background-color: #DA1F26;
+width: 100%;
+height:90%;
+
+
+}
+
+header {
+  opacity: 1;
+background-color: black;
+width: 100%;
+height: 13%;
+display: flex;
+justify-content: space-between;
+}
+.nav-text{
+
+  display: inline-block;
+}
+
+nav {
+width: 40%;
+margin: auto 0 ;
+display: flex;
+justify-content: space-around;
+font-size: 1.3rem;
+color: #ffffff;
+
+font-family: Cairo;
+
+}
