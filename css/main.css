@@ -3,11 +3,12 @@ body {
   margin: 0;
 padding: 0;
 
+
 }
 
 .hero-lg{
 background-color: #DA1F26;
-height: 80vh;
+height: 70vh;
 width: 100vw;
 
 }
@@ -27,11 +28,32 @@ width: 100%;
 height: 13%;
 display: flex;
 justify-content: space-between;
+
 }
+
+
+.nav-blocks {
+
+display: inline-block;
+padding: 10px 20px;
+cursor: pointer;
+
+
+}
+.nav-blocks:hover {
+background: #ffffff;
+color :#DA1F26;
+
+
+
+}
+
 .nav-text{
 
   display: inline-block;
 }
+
+
 
 nav {
 width: 40%;
@@ -52,4 +74,37 @@ font-family: Cairo;
 
 
 
+}
+
+
+.icons {
+  display: flex;
+width: 100vw;
+height: 30vh;
+justify-content: space-around;
+
+}
+
+.icons-in{
+height: 50%;
+width: auto;
+transition: all 0.3s;
+
+
+}
+
+.icons-in:hover{
+transform: scale(1.3);
+
+
+
+}
+
+
+.page-two{
+height: 100vh;
+width: 100vw;
+position: absolute;
+/* transform: translateY(calc(30vh)); */
+z-index: -5;
 }
