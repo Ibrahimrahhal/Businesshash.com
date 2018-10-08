@@ -3,14 +3,14 @@ var myFullpage = new fullpage('#fullpage', {
 
 	//Scrolling
 	css3: true,
-	scrollingSpeed: 700,
+	scrollingSpeed: 500,
 	autoScrolling: true,
 	fitToSection: true,
 	fitToSectionDelay: 1000,
 	scrollBar: false,
 	easing: 'easeInOutCubic',
 	easingcss3: 'ease',
-	loopBottom: false,
+	loopBottom: true,
 	loopTop: false,
 	loopHorizontal: true,
 	continuousVertical: false,
@@ -34,7 +34,7 @@ var myFullpage = new fullpage('#fullpage', {
 	animateAnchor: true,
 	recordHistory: true,
 
-	
+
 
 	//Custom selectors
 	sectionSelector: '.section',
