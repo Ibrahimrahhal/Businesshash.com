@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "gulp-cli": "^2.0.1"
+    "gulp-cli": "^2.0.1",
+    "webpack": "^4.20.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
