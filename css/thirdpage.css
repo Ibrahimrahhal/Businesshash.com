@@ -1,0 +1,77 @@
+.page-three{
+background-color: #DA1F26;
+
+
+
+}
+
+.pagethree-img-circle{
+transform: translateY(-1px);
+
+}
+
+
+
+.pagethree-main-sub, .pagethree-main-sub-light{
+color: #ffffff;
+font-family: "Tajawal";
+
+}
+.pagethree-main-sub{
+font-weight: 800;
+font-size: 4rem;
+margin-top: 7%;
+margin-bottom: 10px;
+
+}
+.pagethree-main-sub-light{
+font-weight: 400;
+font-size: 2rem;
+margin-top: 0;
+
+}
+
+.pagethree-main-text-repper{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+width: 100%;
+height: 60vh;
+
+}
+
+
+.pagethree-calltoation:link,
+.pagethree-calltoation,
+.pagethree-calltoation:visited
+{
+margin-top: 40px;
+color: #ffffff;
+text-decoration: none;
+font-family: Cairo;
+border: solid 2px #ffffff;
+width: 30%;
+height: 30px;
+text-align: center;
+vertical-align:middle;
+transition: all .5s;
+
+
+}
+.pagethree-calltoation:hover{
+color: #000000;
+background-color: #ffffff;
+transform: scale(1.3);
+
+
+}
+
+
+.pagethree-grid-cont{
+  display: grid;
+width: 100%;
+height: 30vh;
+
+}
