@@ -3,6 +3,7 @@
 <head>
 <!-- <title></title> -->
 <link href="css/login.css" type="text/css" rel="stylesheet" />
+<link href="css/tables.css" type="text/css"rel="stylesheet" />
 </head>
 <body>
   <div class="nav">
@@ -10,29 +11,81 @@
   </div>
 <div class="sidebar">
 
-  <div class="sidebar-text-cont">
-  <span class="sidebar-text">Dashboard</span>
+  <div class="sidebar-text-cont Dashboard-btn">
+  <span class="sidebar-text ">Dashboard</span>
   </div>
-  <div class="sidebar-text-cont">
+  <div class="sidebar-text-cont blogs-btn">
   <span class="sidebar-text">Blogs</span>
   </div>
-  <div class="sidebar-text-cont">
+  <div class="sidebar-text-cont messages-btn">
   <span class="sidebar-text">Messages</span>
   </div>
-  <div class="sidebar-text-cont">
+  <div class="sidebar-text-cont admin-btn">
   <span class="sidebar-text">Contact admin</span>
   </div>
 
 </div>
 <div class="main-section">
-<div class="Dashboard">
+<div class="Dashboard  section active ">
+    <h1 class="welcome">Welcome name</h1>
+    <br/>
+    <div class="row" >
+  <div class="box">
+    <h1>Messages</h1>
+
+  </div>
+  <div class="box">
+    <h1>Tasks</h1>
+
+  </div>
+</div>
+<br/>
+
+
 
 </div>
-  <h1 class="welcome">Welcome name</h1>
+<div class="blogs section hidden ">
+<table class="table">
+<tr class="table-row">
+  <th class="table-header">
+    Blog Name
+  </th>
+  <th class="table-header">
+    Visits
+  </th>
+  <th class="table-header">
+    Date
+  </th>
+  <th class="table-header">
+    Comments
+  </th>
+</tr>
+
+
+
+
+</table>
+
+
+</div>
+<div class="Messages section  hidden">
+
+</div>
+
+<div class="comments section  hidden">
+
+</div>
+<div class="contact-admin section  hidden">
 
 </div>
 
 
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="modules/jquery.js"></script>
 </body>
 
 

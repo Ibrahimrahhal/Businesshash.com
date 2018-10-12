@@ -72,7 +72,7 @@ transform: scale(1.3);
 
 
 .pagetwo-grid-cont{
-  display: grid;
+  display: flex;
 width: 100%;
 height: 30vh;
 background-color: #ffffff;
@@ -90,5 +90,50 @@ transform: translateY(-200%);
 background-color: #ffffff;
 height: 10vh;
 width: 100%;
+
+}
+
+
+.backface, .frontface{
+backface-visibility: hidden;
+
+
+height: 100%;
+width:100%;
+/* transform-style: preserve-3d; */
+/* transition: all 1s; */
+transform-style: preserve-3d;
+position: absolute;
+}
+.backface{
+transform: rotateY(180deg);
+color: #ffffff;
+background-color: #000000;
+
+}
+
+
+.pagetwo-card{
+width: 33.3%;
+height: 100%;
+cursor: pointer;
+
+
+perspective: 1000px;
+
+
+}
+.card-inner{
+position: relative;
+height: 100%;
+width: 100%;
+transition: all 1s;
+background-color: #000000;
+
+}
+.card-inner:hover
+{
+  transform: rotateY(180deg);
+
 
 }

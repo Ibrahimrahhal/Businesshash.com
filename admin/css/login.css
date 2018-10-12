@@ -86,3 +86,27 @@ text-transform: uppercase;
 background-color:#ffffff;
 
 }
+
+.hidden{
+display: none;
+
+}
+.section {
+position: relative;
+
+}
+
+.row {
+display: flex;
+justify-content: space-around;
+
+}
+
+.box{
+display: flex;
+align-items: center;
+background: #eeeeee;
+width: 30%;
+justify-content: center;
+
+}
