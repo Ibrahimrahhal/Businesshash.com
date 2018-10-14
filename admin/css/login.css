@@ -92,13 +92,6 @@ background-color:#ffffff;
 color: #DA1F26;
 }
 
-
-.section {
-position: relative;
-width: 100%;
-
-}
-
 .row {
 display: flex;
 justify-content: space-around;
@@ -118,7 +111,7 @@ justify-content: center;
 width: 50%;
 margin: auto;
 height: auto;
-transform: translateX(50%);
+display: block;
 
 }
 .statistics-text{
@@ -126,15 +119,9 @@ margin: auto;
 opacity: 0.8;
 text-transform: uppercase;
 color: #DA1F26;
-width: 100%;
 text-align: center;
-
-}
-.statistics{
-width: 100%;
 
 }
 .hidden{
 display: none;
-
 }
