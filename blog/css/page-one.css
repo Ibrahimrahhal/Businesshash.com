@@ -1,5 +1,6 @@
 .page-one{
 background-color:  #DA1F26;
+clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
 
 }
 header {

@@ -1,0 +1,44 @@
+.header-nav-searchbar{
+height: 80%;
+border: 0;
+display: flex;
+align-items: center;
+width:40%;
+
+}
+.header-nav-searchbar-search{
+height: 80%;
+border: 0;
+font-family: Cairo;
+text-align: right;
+width:100%;
+
+}
+
+.header-nav-searchbar-submit{
+height: 80%;
+border: 0;
+background-color: #ffffff;
+outline: 0;
+width: 30px;
+cursor: pointer;
+display: hidden;
+transition: all 0.4s;
+opacity:0;
+transform: translateX(50px);
+
+
+}
+.header-nav-searchbar-submit-hover{
+  opacity: 1;
+  transform: translateX(0);
+
+
+}
+.header-nav-searchbar-search:focus{
+border: 0;
+outline: 0;
+
+
+
+}
