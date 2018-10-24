@@ -33,3 +33,20 @@ margin-bottom: 0px;
   opacity: 0.5;
 
 }
+
+.blog-main-para-text{
+margin-top: 10px;
+color: rgba(0, 0, 0, 0.8);
+text-align: right;
+font-family: Cairo;
+font-size: 1.5rem;
+
+}
+
+.blog-main-para-mainsub-title{
+  color: rgba(0, 0, 0, 0.8);
+  text-align: right;
+  font-family: Cairo;
+  font-size: 1.8rem;
+
+}

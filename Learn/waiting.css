@@ -1,0 +1,135 @@
+body {
+background-color: #DA1F26;
+
+
+}
+.main-wrapper {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+.main-wrapper-logo{
+width: 400px;
+
+}
+
+.main-wrapper-text-eng{
+font-family: sans-serif;
+text-align: center;
+
+font-family: "Roboto Slab";
+display: flex;
+justify-content: center;
+color: #ffffff;
+font-size: 2.4rem;
+
+}
+
+.main-wrapper-text-ara{
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+  font-family: sans-serif;
+  font-family: Cairo;
+  display: flex;
+  justify-content: center;
+  color: #DA1F26;
+  font-size: 2.4rem;
+
+
+}
+
+.main-wrapper-submit{
+border: 0;
+outline: 0;
+background-color: #ffffff;
+color: #DA1F26;
+font-family: Cairo;
+width: 300px;
+height: 50px;
+font-size: 1.2rem;
+cursor: pointer;
+transition:all 0.4s;
+/* border-radius: 7px; */
+
+ }
+
+.main-wrapper-submit:hover{
+transform: scale(1.2);
+border-radius: 7px;
+
+
+}
+
+.main-wrapper-email-form{
+background-color: #ffffff;
+width: 100%;
+z-index: 2;
+position: absolute;
+bottom: 0;
+left: 0;
+display: none;
+flex-direction: column;
+align-items: center;
+
+transition: all 0.8s;
+
+}
+
+.main-wrapper-name-form-text-wrap{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.8);
+font-family: Cairo;
+}
+.main-wrapper-email-form-text-wrap{
+  display: flex;
+  flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin:  20px 0;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: Cairo;
+}
+.main-wrapper-email-form-button{
+margin-bottom: 20px;
+outline: 0;
+border: 0;
+background-color: #DA1F26;
+height: 30px;
+width: 100px;
+color: #ffffff;
+font-family: Cairo;
+cursor: pointer;
+}
+.black{
+width: 100vw;
+height: 100vh;
+background-color: #000000;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+opacity: 0.8;
+
+display: none;
+
+}
+
+.input-text{
+  text-align: center;
+width: 100%;
+  margin-top: 5px;
+  height: 35px;
+transition: all 0.3s;
+  border: solid 1px #DA1F26;
+}
+.input-text:focus{
+outline: 0;
+  border: solid 2px #DA1F26;
+}
