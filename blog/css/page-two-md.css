@@ -1,0 +1,72 @@
+.page-two-pic-section{
+height: 45%;
+width: 100%;
+background-image: url("../../assets/place1.jpg");
+background-size: cover;
+/* clip-path: polygon(0 0, 100% 0, 57% 91%, 0% 100%); */
+background-position: center center;
+ /* box-shadow: 8px 8px #000000; */
+}
+.not-res-text{
+display: none;
+
+}
+.page-two-main{
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.page-two-text-section{
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+border:0;
+
+}
+
+.page-two-text-section-title{
+text-align: right;
+font-family: Tajawal;
+font-size: 3rem;
+
+
+}
+.page-two-text-section-button,
+.page-two-text-section-button:link,
+.page-two-text-section-button:visited
+{
+text-decoration: none;
+color: #ffffff;
+background-color: #DA1F26;
+width: 40%;
+height: 45px;
+font-family: Cairo;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+border-radius: 5px;
+transition: all 0.5s;
+}
+
+.page-two-text-section-button:hover{
+border-radius: 0;
+transform: scale(1.2);
+
+}
+
+.page-two-text-section-text{
+margin-right: 20px;
+text-indent: 20px;
+text-align: right;
+font-family: cairo;
+
+}

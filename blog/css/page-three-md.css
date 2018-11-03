@@ -1,0 +1,64 @@
+.page-three-pic-section{
+height: 45%;
+width: 100%;
+background-image: url("../../assets/place2.jpg");
+background-size: cover;
+/* clip-path: polygon(0 0, 100% 0%, 100% 100%, 25% 80%); */
+background-position: center;
+}
+.page-three-main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.page-three-text-section{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.page-three-text-section-title{
+text-align: right;
+font-family: Tajawal;
+font-size: 3rem;
+}
+
+.page-three-text-section-text{
+text-indent: 20px;
+text-align: right;
+font-family: cairo;
+margin-right: 20px;
+
+}
+
+
+.page-three-text-section-button,
+.page-three-text-section-button:link,
+.page-three-text-section-button:visited
+{
+text-decoration: none;
+color: #ffffff;
+background-color: #DA1F26;
+width: 40%;
+height: 45px;
+font-family: Cairo;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+border-radius: 5px;
+transition: all 0.5s;
+}
+
+.page-three-text-section-button:hover{
+border-radius: 0;
+transform: scale(1.2);
+
+}
