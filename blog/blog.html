@@ -6,8 +6,10 @@
 <link href="css/blog-aside-2.css" rel="stylesheet" type="text/css" />
 <link href="css/blog-aside-3.css" rel="stylesheet" type="text/css" />
 <link href="css/blog-aside-4.css" rel="stylesheet" type="text/css" />
-<link href="css/blog-main.css" rel="stylesheet" type="text/css" />
-<link href="css/blog-text.css" rel="stylesheet" type="text/css" />
+<link href="css/blog-main-md.css" rel="stylesheet" type="text/css" media="screen and (max-width:1024px)" />
+<link href="css/blog-main.css" rel="stylesheet" type="text/css" media="screen and (min-width:1024px)" />
+<link href="css/blog-text.css" rel="stylesheet" type="text/css" media="screen and (min-width:1024px)" />
+<link href="css/blog-text-md.css" rel="stylesheet" type="text/css"  media="screen and (max-width:1024px)" />
 <link href="css/blog-header.css" rel="stylesheet" type="text/css" />
 <link href="css/blog-search.css" rel="stylesheet" type="text/css" />
 <link href="css/footer.css" rel="stylesheet" type="text/css" />
@@ -18,12 +20,39 @@
 <link href="https://fonts.googleapis.com/css?family=Cairo|Rakkas|Tajawal:800,400|Rakkas" rel="stylesheet">
 </head>
 <body>
+  <style >
 
+  @media only screen and (max-width: 300px) {
+      body {
+          display: none;
+      }
+  }
+
+  </style>
 
 <header>
   <img class="logo-header" src="../assets/Logo-header.svg" />
 
   <nav>
+    <div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+<div class="header-nav-menu-res hidden">
+  <a class="header-nav-menu-text" href="#">
+    المدونة
+  </a>
+  <a class="header-nav-menu-text" href="#">
+    أدوات
+  </a>
+  <a class="header-nav-menu-text" href="#">
+  تعلم
+  </a>
+  <a class="header-nav-menu-text" href="#">
+  تواصل
+  </a>
+</div>
     <div class="header-nav-menu">
       <a class="header-nav-menu-text" href="#">
         المدونة
@@ -130,9 +159,7 @@
 </div>
     </div>
 
-    <div class="page-four-footer-upper-right">
 
-    </div>
   </div>
   <hr style="width:40%; transform:translateY(-2px);" />
   <div class="page-four-footer-bottom">
@@ -148,6 +175,12 @@
   </div>
 
 </footer>
+<script>
+function myFunction(x) {
+    x.classList.toggle("change");
+    document.getElementsByClassName("header-nav-menu-res")[0].classList.toggle("hidden");
+}
+</script>
 <script src="../vendors/JQuery/jquery-3.3.1.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 

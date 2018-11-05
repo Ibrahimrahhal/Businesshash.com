@@ -54,6 +54,7 @@ border-collapse: inherit;
 height: 100%;
 cursor: pointer;
 width: 5vw;
+width: 40px;
 /* width: auto; */
 }
 .page-one-main-input-submit:hover{

@@ -37,27 +37,32 @@ display: flex;
 justify-content: space-between;
 
 }
+.nav-blocks{
+display: none;
+
+}
+
+.nav-blocks-res {
 
 
-.nav-blocks {
-
-display: inline-block;
 padding: 10px 20px;
 cursor: pointer;
 
 
 }
-.nav-blocks:hover {
-background: #ffffff;
-color :#DA1F26;
+.nav-text:hover {
+border-right: solid 1px #da1f26;
+transform: scale(1.3);
 
 
 
 }
 
 .nav-text{
-
+  transition: all 0.4s;
+padding: 0 7px;
   display: inline-block;
+  border-right: solid 1px #ffffff;
 }
 
 
@@ -66,10 +71,10 @@ nav {
 width: 40%;
 margin: auto 0 ;
 display: flex;
-justify-content: space-around;
+/* justify-content: space-around; */
 font-size: 1.3rem;
 color: #ffffff;
-
+justify-content: flex-end;
 font-family: Cairo;
 
 }
@@ -78,7 +83,8 @@ font-family: Cairo;
 {
  position: absolute;
  transform: translateY(-98%);
-
+height: 120px;
+width: auto;
 
 
 }
@@ -118,13 +124,14 @@ z-index: 2;
 
 
 .main-hero-text{
-  font-size: 5rem;
-  display: grid;
+  font-size: 4rem;
+  display: flex;
 
 font-family: "Rakkas";
 font-weight: 400;
 color: #ffffff;
-transform: translateY(-60%);
+/* transform: translateY(-60%); */
+text-align: center;
 
 
 }
@@ -174,11 +181,64 @@ cursor: pointer;
    animation-fill-mode: both;
 }
 .container {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 30px;
+    display: relative;
+    z-index: 5;
+}
 
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+    background-color: #da1f26;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+    background-color: #da1f26;
+}
+
+.Resposive-menu{
+
+position: absolute;
+top:0;
+background-color: #ffffff;
+/* height: 0; */
+width: 100%;
 display: none;
+align-items: center;
+justify-content: center;
+flex-direction: column-reverse;
+color :#DA1F26;
+font-family: Cairo;
+transition: all 0.4s;
 
 }
-.Resposive-menu{
-display: none;
+.openn  {
+/* height: 300px; */
+display: flex;
+
+
+}
+.red {
+
+background-color: #da1f26;
 
 }

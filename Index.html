@@ -4,10 +4,19 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Cairo|Rakkas|Tajawal:800,400|Rakkas" rel="stylesheet">
 <link href="fullpage/fullpage.css" />
-<link rel="stylesheet" href="css/main.css" type="text/css">
+<link rel="stylesheet" href="css/main.css" type="text/css" media="screen and (min-width:900px)">
+<link rel="stylesheet" href="css/main-md.css" type="text/css" media="screen and (max-width:900px)">
 </head>
 
 <body>
+  <style >
+  @media only screen and (max-width: 300px) {
+      body {
+          display: none;
+      }
+  }
+
+  </style>
 <div id="fullpage">
 
 
@@ -26,11 +35,21 @@
 <span class="nav-blocks"><a class="nav-text">المدونة</a></span>
 <span class="nav-blocks"><a class="nav-text">تعلم</a></span>
 <span class="nav-blocks"><a class="nav-text">تواصل</a></span>
+<div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
 
 
 
 </nav>
-
+<div class="Resposive-menu">
+  <span class="nav-blocks-res"><a class="nav-text">أدوات</a></span>
+  <span class="nav-blocks-res"><a class="nav-text">المدونة</a></span>
+  <span class="nav-blocks-res"><a class="nav-text">تعلم</a></span>
+  <span class="nav-blocks-res"><a class="nav-text">تواصل</a></span>
+</div>
 
 </header>
 <div class="hero-sm">
@@ -141,6 +160,10 @@
 
 </div>
 
+<script>function myFunction(x) {
+  x.classList.toggle("change");
+  document.getElementsByClassName('Resposive-menu')[0].classList.toggle("openn");
+}</script>
 <script src="vendors/fullpage/fullpage.js"></script>
 <script src="modules/fullpage.js"></script>
 <script src="vendors/JQuery/jquery-3.3.1.min.js"></script>
