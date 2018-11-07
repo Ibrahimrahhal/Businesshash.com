@@ -6,6 +6,16 @@ background-color:	rgb(0, 0, 0);
 /* transform: translateY(calc(30vh)); */
 
 }
+.sec-nav{
+height: 80px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
 
 .logo-afterscroll{
 
@@ -19,6 +29,7 @@ width: auto;
 .pagetwo-main-sub, .pagetwo-main-sub-light{
 color: #ffffff;
 font-family: "Tajawal";
+text-align: center;
 
 }
 .pagetwo-main-sub{
@@ -26,13 +37,13 @@ font-weight: 800;
 font-size: 4rem;
 margin-top: 7%;
 margin-bottom: 10px;
-
+text-align: center;
 }
 .pagetwo-main-sub-light{
 font-weight: 400;
 font-size: 2rem;
 margin-top: 0;
-
+text-align: center;
 }
 
 .pagetwo-main-text-repper{
@@ -166,4 +177,24 @@ cursor: pointer;
   transform: rotateY(180deg);
   border-bottom: solid 4px #ffffff;
   box-sizing: border-box;
+}
+
+.pagetwo-main-blogs{
+display: flex;
+/* flex-direction: column; */
+justify-content: space-around;
+align-items: center;
+}
+.round-img-cont-title{
+text-align: center;
+color: #ffffff;
+font-family: Cairo;
+
+}
+
+.round-img-cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
