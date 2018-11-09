@@ -1,0 +1,190 @@
+
+body {
+
+  margin: 0;
+padding: 0;
+
+
+}
+
+.hero-lg{
+background-color: #DA1F26;
+height: 100%;
+width: 100vw;
+
+}
+
+.hero-sm {
+
+width: 100%;
+height:50%;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+font-size: 2rem;
+/* transform: translateY(-8%); */
+
+}
+
+header {
+  opacity: 1;
+/* background-color: rgba(0,0,0,.2); */
+width: 100%;
+height: 13%;
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.nav-blocks {
+
+display: inline-block;
+padding: 10px 20px;
+cursor: pointer;
+color: #ffffff;
+
+}
+.nav-blocks:hover {
+background: #ffffff;
+color :#DA1F26;
+
+
+
+}
+
+.nav-text{
+
+  display: inline-block;
+  /* color: #ffffff; */
+}
+
+
+
+nav {
+width: 40%;
+margin: auto 0 ;
+display: flex;
+justify-content: space-around;
+font-size: 1.3rem;
+color: #ffffff;
+
+font-family: Cairo;
+
+}
+.city-cont{
+position: absolute;
+bottom: 0;
+height: 90px;
+width: 100%;
+background-color: #ffffff;
+}
+.city
+{
+  transform: translateY(-98%);
+  height: auto;
+  width: 100%;
+
+
+
+}
+
+
+.icons {
+  display: flex;
+width: 100vw;
+height: 30vh;
+justify-content: space-around;
+background-color: #ffffff;
+}
+
+.icons-in{
+height: 50%;
+width: auto;
+transition: all 0.3s;
+
+
+}
+
+.icons-in:hover{
+transform: scale(1.3);
+
+
+
+}
+
+
+
+
+.img-circle{
+position: absolute;
+z-index: 2;
+top: 0;
+
+}
+
+
+.main-hero-text{
+  font-size: 5rem;
+  text-align: center;
+
+font-family: "Rakkas";
+font-weight: 400;
+color: #ffffff;
+/* transform: translateY(-60%); */
+
+
+}
+
+
+
+
+ @keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+   transform:translateY(-20px);
+   /* transform: rotate(90deg); */
+  }
+	40% {
+    transform:translateY(-50px);
+    /* transform: rotate(80deg); */
+  }
+	60% {
+  transform:translateY(-35px);
+  /* transform: rotate(100deg); */
+  }
+}
+
+/*
+body {
+  background: black;
+} */
+
+.arrow {
+  position: fixed;
+
+  bottom: 0;
+  left: 50%;
+  margin-left:-20px;
+  width: 40px;
+  height: 40px;
+/* transform: rotate(90deg); */
+  background-size: contain;
+  cursor: pointer;
+
+}
+
+.bounce {
+
+   animation:bounce 2s infinite;
+   animation-fill-mode: both;
+}
+.container {
+
+display: none;
+
+}
+.Resposive-menu{
+display: none;
+
+}

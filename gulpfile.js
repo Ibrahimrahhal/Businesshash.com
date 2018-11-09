@@ -18,8 +18,9 @@ paths.forEach((path)=>{
 gulp.task('default', () =>{
   var paths =[
     {input:"/css/main.css"     , output:"/css/done"},
-    {input:"/css/main_md.css"     , output:"/css/done"}
-    ,{input:"/blog/css/lg.css"     , output:"/blog/css/done/"},
+    {input:"/css/main_md.css"     , output:"/css/done"},
+    {input:"/css/main_sm.css"     , output:"/css/done"},
+    {input:"/blog/css/lg.css"     , output:"/blog/css/done/"},
     {input:"/blog/css/md.css"     , output:"/blog/css/done/"}
   ];
   cssloop(paths);
