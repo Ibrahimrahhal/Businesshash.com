@@ -115,7 +115,7 @@ background-color: #ffffff;
 }
 
 .icons-in{
-height: 50%;
+height: 60%;
 width: auto;
 transition: all 0.3s;
 
@@ -140,7 +140,7 @@ top: 0;
 
 
 .main-hero-text{
-  font-size: 2rem;
+  font-size: 2.5rem;
   display: flex;
 font-family: "Rakkas";
 font-weight: 400;

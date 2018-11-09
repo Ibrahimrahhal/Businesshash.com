@@ -352,15 +352,16 @@ text-align: center;
 }
 .pagetwo-main-sub{
 font-weight: 800;
-font-size: 2.5rem;
+font-size: 2rem;
 margin-top: 7%;
+padding: 0 10px;
 margin-bottom: 10px;
 text-align: center;
 
 }
 .pagetwo-main-sub-light{
 font-weight: 400;
-font-size: 1.5rem;
+font-size: 1rem;
 margin-top: 0;
 text-align: center;
 
@@ -451,7 +452,7 @@ text-align: center;
 }
 .pagethree-main-sub{
 font-weight: 800;
-font-size: 2.5rem;
+font-size: 2rem;
 margin-top: 7%;
 margin-bottom: 10px;
 text-align: center;
@@ -459,7 +460,7 @@ text-align: center;
 }
 .pagethree-main-sub-light{
 font-weight: 400;
-font-size: 1.5rem;
+font-size: 1rem;
 margin-top: 0;
 text-align: center;
 }
@@ -625,7 +626,7 @@ background-color: #ffffff;
 }
 
 .icons-in{
-height: 50%;
+height: 60%;
 width: auto;
 transition: all 0.3s;
 
@@ -650,9 +651,8 @@ top: 0;
 
 
 .main-hero-text{
-  font-size: 2rem;
+  font-size: 2.5rem;
   display: flex;
-
 font-family: "Rakkas";
 font-weight: 400;
 color: #ffffff;
