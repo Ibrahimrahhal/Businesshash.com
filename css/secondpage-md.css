@@ -20,7 +20,6 @@ align-items: center;
 .logo-afterscroll{
 
 position: absolute;
-transform: translateY(20px);
 height: 50px;
 width: auto;
 

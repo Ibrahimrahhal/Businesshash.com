@@ -148,6 +148,8 @@ align-items: center;
 transition: all 0.2s;
 opacity: 1;
 cursor: pointer;
+text-decoration: none;
+
 }
 .menu-item:hover{
 border-radius: 0;

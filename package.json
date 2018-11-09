@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "gulp-autoprefixer": "^6.0.0"
+  },
   "devDependencies": {
+    "gulp": "^2.0.1",
     "gulp-cli": "^2.0.1",
-    "webpack": "^4.20.2"
+    "webpack": "^4.20.2",
+    "autoprefixer": "^9.3.1",
+    "gulp-cssimport": "^7.0.0",
+    "gulp-postcss": "^8.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
