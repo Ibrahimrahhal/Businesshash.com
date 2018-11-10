@@ -21,7 +21,10 @@ gulp.task('default', () =>{
     {input:"/css/main_md.css"     , output:"/css/done"},
     {input:"/css/main_sm.css"     , output:"/css/done"},
     {input:"/blog/css/lg.css"     , output:"/blog/css/done/"},
-    {input:"/blog/css/md.css"     , output:"/blog/css/done/"}
+    {input:"/blog/css/md.css"     , output:"/blog/css/done/"},
+    {input:"/blog/css/blog/sm.css"     , output:"/blog/css/blog/done/"},
+    {input:"/blog/css/blog/md.css"     , output:"/blog/css/blog/done/"},
+    {input:"/blog/css/blog/lg.css"     , output:"/blog/css/blog/done/"}
   ];
   cssloop(paths);
   console.log(__dirname);

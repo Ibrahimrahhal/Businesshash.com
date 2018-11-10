@@ -329,22 +329,15 @@ width: 100%;
 
 
 }
-@media screen and (min-width:700px) {
+
   .page-four-footer-upper{
   display: flex;
     width: 40%;
     height: 60%;
     justify-content: center;
   }
-}
-@media screen and (max-width:700px) and (min-width:400px) {
-  .page-four-footer-upper{
-  display: flex;
-    width: 50%;
-    height: 60%;
-    justify-content: center;
-  }
-}
+
+
 
 .page-four-footer-bottom{
 display: flex;

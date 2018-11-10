@@ -1,0 +1,65 @@
+
+  header {
+
+    padding: 0 5px;
+    background-color: #DA1F26;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo-header {
+  height: 80%;
+
+  }
+
+  nav{
+
+
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+
+  }
+
+.container {
+display: none;
+
+}
+.header-nav-menu-res{
+  display: none;
+}
+.header-nav-menu{
+width: 40%;
+display: flex;
+justify-content:space-around;
+align-items: center;
+height: 100%;
+}
+
+
+.header-nav-menu-text,
+.header-nav-menu-text:link,
+.header-nav-menu-text:visited
+{
+align-items: center;
+display: flex;
+height: 100%;
+color: #ffffff;
+font-family: Cairo;
+text-decoration: none;
+padding: 5px 20px;
+
+
+}
+.header-nav-menu-text:hover{
+
+background-color:#ffffff;
+color: #DA1F26;
+}
+
+

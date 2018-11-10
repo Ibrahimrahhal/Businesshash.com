@@ -1,8 +1,8 @@
-@import "main.css";
-@import "page-one.css";
-@import "page-two.css";
-@import "page-three.css";
-@import "footer.css";
+@import "lg/main.css";
+@import "lg/page-one.css";
+@import "lg/page-two.css";
+@import "lg/page-three.css";
+@import "lg/footer.css";
 @import "fonts.css";
 @import "fullpage.css";
 @media only screen and (max-width: 300px) {

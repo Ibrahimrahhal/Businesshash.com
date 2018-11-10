@@ -1,0 +1,52 @@
+.main-first-line-break{
+background-color: #DA1F26;
+color: #DA1F26;
+width: 40%;
+display:none;
+
+
+}
+
+.blog-main-image{
+display: block;
+width: 100%;
+height: auto;
+
+}
+.blog-main-title{
+margin-bottom: 0px;
+  color: #DA1F26;
+  font-family: Cairo;
+  font-size: 3rem;
+  text-align: center;}
+
+.blog-main-cata{
+  font-family: Cairo;
+  margin: 0;
+  opacity: 0.7;
+
+}
+
+.blog-main-date{
+  font-family: Cairo;
+  margin: 0;
+  opacity: 0.5;
+
+}
+
+.blog-main-para-text{
+margin-top: 10px;
+color: rgba(0, 0, 0, 0.8);
+text-align: right;
+font-family: Cairo;
+font-size: 1.5rem;
+
+}
+
+.blog-main-para-mainsub-title{
+  color: rgba(0, 0, 0, 0.8);
+  text-align: right;
+  font-family: Cairo;
+  font-size: 1.8rem;
+
+}
