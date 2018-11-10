@@ -111,6 +111,8 @@ display: none;
 padding: 0 20px;
 
 }
+
+*{box-sizing: border-box;}
 body {
 margin: 0;
 padding: 0;
