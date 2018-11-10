@@ -1,18 +1,6 @@
-body {
-margin: 0;
-padding: 0;
-font-family: sans-serif;
-overflow-x: hidden;
-}
-
 @import "md/page-one-md.css";
 @import "md/page-two-md.css";
 @import "md/page-three-md.css";
 @import "md/footer-md.css";
 @import "fonts.css";
 @import "fullpage.css";
-@media only screen and (max-width: 300px) {
-    body {
-        display: none;
-    }
-}

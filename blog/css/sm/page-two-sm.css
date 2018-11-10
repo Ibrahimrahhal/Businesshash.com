@@ -35,8 +35,9 @@ border:0;
 .page-two-text-section-title{
 text-align: right;
 font-family: Tajawal;
-font-size: 3rem;
+font-size: 1.5rem;
 margin: 10px 0;
+box-sizing: border-box;
 text-align: center;
 
 
@@ -70,5 +71,5 @@ margin-right: 20px;
 text-indent: 20px;
 text-align: right;
 font-family: cairo;
-
+font-size: 1rem;
 }

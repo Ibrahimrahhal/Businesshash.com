@@ -6,7 +6,6 @@ overflow-x: hidden;
 }
 
 
-
 .page-one{
 background-color:  #DA1F26;
 clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
@@ -86,7 +85,7 @@ text-transform: capitalize;
 color: #ffffff;
 font-family: sans-serif;
 text-align: center;
-font-size: 3rem;
+font-size: 2rem;
 font-family: Tajawal;
 font-weight: 800;
 }
@@ -210,8 +209,9 @@ border:0;
 .page-two-text-section-title{
 text-align: right;
 font-family: Tajawal;
-font-size: 3rem;
+font-size: 1.5rem;
 margin: 10px 0;
+box-sizing: border-box;
 text-align: center;
 
 
@@ -245,7 +245,7 @@ margin-right: 20px;
 text-indent: 20px;
 text-align: right;
 font-family: cairo;
-
+font-size: 1rem;
 }
 
 .page-three-pic-section{
@@ -272,12 +272,13 @@ background-position: center;
   align-items: center;
   justify-content: center;
   text-align: center;
+
 }
 
 .page-three-text-section-title{
 text-align: right;
 font-family: Tajawal;
-font-size: 3rem;
+font-size: 1.5rem;
 text-align: center;
 
 }
@@ -287,6 +288,8 @@ text-indent: 20px;
 text-align: right;
 font-family: cairo;
 margin-right: 20px;
+font-size: 1rem;
+box-sizing: border-box;
 
 }
 
@@ -334,7 +337,7 @@ width: 100%;
 
   .page-four-footer-upper{
   display: flex;
-    width: 40%;
+    width: 80%;
     height: 60%;
     justify-content: center;
   }
@@ -364,11 +367,12 @@ width: 100%;
 
 }
 .page-four-footer-upper-left-logo{
-  height:50%;
+  height:70%;
 }
 .page-four-footer-upper-left-copy{
   color: #ffffff;
   font-family: monospace,sans-serif;
+  text-align: center;
 }
 
 

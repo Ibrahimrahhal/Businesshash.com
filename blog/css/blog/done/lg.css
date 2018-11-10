@@ -244,6 +244,7 @@ color: #ffffff;
 font-family: Cairo;
 text-decoration: none;
 padding: 5px 20px;
+box-sizing: border-box;
 
 
 }

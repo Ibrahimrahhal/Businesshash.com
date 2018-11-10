@@ -17,7 +17,7 @@ width: 100%;
 
   .page-four-footer-upper{
   display: flex;
-    width: 40%;
+    width: 80%;
     height: 60%;
     justify-content: center;
   }
@@ -47,11 +47,12 @@ width: 100%;
 
 }
 .page-four-footer-upper-left-logo{
-  height:50%;
+  height:70%;
 }
 .page-four-footer-upper-left-copy{
   color: #ffffff;
   font-family: monospace,sans-serif;
+  text-align: center;
 }
 
 
