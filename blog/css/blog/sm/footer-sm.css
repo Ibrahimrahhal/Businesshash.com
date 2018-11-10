@@ -17,7 +17,7 @@ width: 100%;
 
   .page-four-footer-upper{
   display: flex;
-    width: 40%;
+    width: 90%;
     height: 60%;
     justify-content: center;
   }
@@ -35,6 +35,8 @@ justify-content: center;
 .page-four-footer-bottom-text{
   color: #ffffff;
   font-family: Cairo;
+  text-align: center;
+  font-size: 1rem;
 }
 
 .page-four-footer-upper-left{
@@ -52,6 +54,7 @@ width: 100%;
 .page-four-footer-upper-left-copy{
   color: #ffffff;
   font-family: monospace,sans-serif;
+  text-align: center;
 }
 
 
