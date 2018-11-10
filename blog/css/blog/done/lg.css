@@ -190,7 +190,7 @@ transform: scale(1.2);
 
   header {
 
-    padding: 0 5px;
+    /* padding: 0 5px; */
     background-color: #DA1F26;
     height: 70px;
     width: 100%;
@@ -228,6 +228,8 @@ display: flex;
 justify-content:space-around;
 align-items: center;
 height: 100%;
+margin: 0 20px;
+box-sizing: border-box;
 }
 
 
@@ -250,8 +252,6 @@ padding: 5px 20px;
 background-color:#ffffff;
 color: #DA1F26;
 }
-
-
 
 .main-wrapper{
 padding: 0 20px;
