@@ -173,6 +173,10 @@ transform: scale(1.5);
 opacity: 0;
 visibility: hidden;
 }
+.icon-reveal-main{
+  display: hidden;
+  
+}
 
 .page-two-pic-section{
 height: 45%;
