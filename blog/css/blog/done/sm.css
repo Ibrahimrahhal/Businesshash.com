@@ -4,9 +4,11 @@
   }
 
   .header-nav-menu-res{
+box-sizing: border-box;
 position: absolute;
 z-index: 1000;
-width: 100%;
+width: 100vw;
+margin: 0;
 top:0;
 left:0;
 display: flex;
