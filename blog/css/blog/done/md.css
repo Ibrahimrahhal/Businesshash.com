@@ -82,7 +82,7 @@ display: none;
   }
   header {
 
-  padding: 0 5px;
+  /* padding: 0 5px; */
     background-color: #DA1F26;
     height: 120px;
     width: 100%;
