@@ -1,3 +1,9 @@
+@media only screen and (max-width: 300px) {
+    body {
+        display: none;
+    }
+}
+
 body{
 padding: 0;
 margin: 0;
@@ -56,9 +62,11 @@ justify-content: center;
 cursor: pointer;
 box-shadow: 0px 2px rgba(0,0,0,0.4);
 transition: all 0.5s;
+transform: scale(1.2);
+
 }
 .icon:hover{
-transform: scale(1.2);
+transform: scale(1.3);
 
 
 
@@ -70,7 +78,7 @@ transform: scale(1.4);
 }
 
 .contact-form{
-width: 70%;
+width: 100%;
 margin: auto;
 
 
@@ -80,9 +88,9 @@ margin: auto;
   flex-direction: column;
   align-items: center;
   padding: 40px;
-border-color: #DA1F26;
+border:0;
 position: relative;
-padding-top: 190px;
+padding-top: 100px;
 
 
 
@@ -101,45 +109,50 @@ justify-content: space-around;
 }
 
 .name-input{
-color: rgb(0,0,0);
+color: #da1f26;
 font-family: Cairo;
 font-family: Changa;
-font-size: 1.5rem;
+font-size: 1rem;
 display: flex;
 flex-direction: column;
 align-items: center;
 width: 100%;
-
+justify-content: center;
+margin-top: 20px;
 /* font-weight: 800; */
 }
 .email-input{
-  color: rgb(0,0,0);
+  color: #da1f26;
   font-family: Changa;
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   text-align: center;
+  justify-content: center;
 
 /* font-weight: 800; */
 
 
 }
 .input-feild{
-border-color: rgba(218,31,38,0.7);
-border-width: 2px;
-border-radius: 5px;
-border-style: solid;
+
+outline: 0;
+border-style: none;
 text-align: right;
 font-family: Cairo;
 /* font-weight: 400; */
 margin : 0 20px;
-margin-top: 20px;
-width: 65%;
+margin-top: 10px;
+width:90%;
 height: 30px;
 transition: all 0.5s;
 padding: 0 10px;
+background-color: #da1f26;
+opacity: 0.8;
+color: #ffffff;
+
 }
 input:focus {
 outline: 0;
@@ -149,6 +162,7 @@ transform: scale(1.2);
 
 }
 textarea:focus {
+
 outline: 0;
 border-color: rgba(218,31,38,1);
 border-radius: 1px;
@@ -159,16 +173,15 @@ transform: scale(1.1);
   margin-top:30px;
 text-align: center;
 font-family: Changa;
-
-
+font-size: 1.2rem;
+margin-bottom: 10px;
+color: #da1f26;
 
 }
 .message-box{
-  border-color: rgba(218,31,38,0.7);
-  border-width: 2px;
-  border-radius: 5px;
-  border-style: solid;
-  width: 80%;
+  outline: 0;
+  border-style: none;
+  width: 90%;
   height: 200px;
   transition: all 0.5s;
   padding:  10px;
@@ -177,8 +190,17 @@ font-family: Changa;
   display: block;
   font-family: Cairo;
 resize: none;
+background-color: #da1f26;
+opacity: 0.8;
+color: #ffffff;
 }
+.leave-message{
+text-align: center;
+color: #da1f26;
+font-family: Cairo;
 
+
+}
 .contact-hash{
 width: 100%;
 background-color: rgb(218,31,38);
@@ -191,7 +213,9 @@ justify-content: center;
 position:absolute;
 top: 0;
 left: 0;
-height: 150px;
+height: 100px;
+clip-path: polygon(100% 0, 100% 85%, 85% 100%, 0 100%, 0 0);
+
 
 
 

@@ -1,13 +1,26 @@
 var gulp = require('gulp');
 var importCss = require("gulp-cssimport");
 var postcss      = require('gulp-postcss');
+var autoprefixer = require('gulp-autoprefixer');
+var cleanCSS = require('gulp-clean-css');
 
 function cssloop(paths){
 paths.forEach((path)=>{
   gulp.src(__dirname+path.input)
       .pipe(importCss({skipComments:false}))
+    //   .pipe(cleanCSS({debug: true}, (details) => {
+    //   console.log(`${details.name}: ${details.stats.originalSize}`);
+    //   console.log(`${details.name}: ${details.stats.minifiedSize}`);
+    // }))
       .pipe(gulp.dest(__dirname+path.output));
 
+//
+// gulp.src(__dirname+path.input)
+//           .pipe(autoprefixer({
+//                     browsers: ['last 2 versions'],
+//                     cascade: false
+//                   }))
+//                   .pipe(gulp.dest(__dirname+path.output));
 
 
 });
