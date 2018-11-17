@@ -5,8 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
+    <link href="css/done/lg.css" rel="stylesheet" type="text/css" media="screen and (min-width:1024px)" />
+    <link href="css/done/md.css" rel="stylesheet" type="text/css" media="screen and (max-width:1023px) and (min-width:550px)" />
+    <link href="css/done/sm.css" rel="stylesheet" type="text/css" media="screen and (max-width:549px)" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
   </head>
   <body>
+    <header>
+      <img class="logo-header" src="../assets/Logoheader.svg" />
 
+      <nav>
+        <div class="container" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <div class="header-nav-menu-res hidden">
+      <a class="header-nav-menu-text" href="#">
+        المدونة
+      </a>
+      <a class="header-nav-menu-text" href="#">
+        أدوات
+      </a>
+      <a class="header-nav-menu-text" href="#">
+      تعلم
+      </a>
+      <a class="header-nav-menu-text" href="#">
+      تواصل
+      </a>
+    </div>
+        <div class="header-nav-menu">
+          <a class="header-nav-menu-text" href="#">
+            المدونة
+          </a>
+          <a class="header-nav-menu-text" href="#">
+            أدوات
+          </a>
+          <a class="header-nav-menu-text" href="#">
+          تعلم
+          </a>
+          <a class="header-nav-menu-text" href="#">
+          تواصل
+          </a>
+        </div>
+        <div class="header-nav-searchbar">
+    <button type="submit" class="header-nav-searchbar-submit" ><i class="fas fa-search"></i></button>
+    <input type="search" class="header-nav-searchbar-search" placeholder="أبحث عن اي موضوع"  />
+
+    </div>
+
+      </nav>
+    </header>
+    <main>
+
+      <a class="cata-item"href="#"><span class="cata-item-text">مصطلحات أعمال</span></a>
+      <a class="cata-item"href="#"><span class="cata-item-text">إدارة أعمال</span></a>
+      <a class="cata-item"href="#"><span class="cata-item-text"> إقتصاد أعمال</span></a>
+      <a class="cata-item"href="#"><span class="cata-item-text">تسوق </span></a>
+      <a class="cata-item"href="#"><span class="cata-item-text"> مبيعات</span></a>
+      <a class="cata-item general"href="#"><span class="cata-item-text "> عام</span></a>
+      <a class="cata-item"href="#"><span class="cata-item-text tools"> أدوات</span></a>
+
+    </main>
+    <script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+        document.getElementsByClassName("header-nav-menu-res")[0].classList.toggle("hidden");
+    }
+    </script>
   </body>
 </html>

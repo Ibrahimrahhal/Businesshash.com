@@ -38,7 +38,12 @@ gulp.task('default', () =>{
     {input:"/blog/css/sm.css"     , output:"/blog/css/done/"},
     {input:"/blog/css/blog/sm.css"     , output:"/blog/css/blog/done/"},
     {input:"/blog/css/blog/md.css"     , output:"/blog/css/blog/done/"},
-    {input:"/blog/css/blog/lg.css"     , output:"/blog/css/blog/done/"}
+    {input:"/blog/css/blog/lg.css"     , output:"/blog/css/blog/done/"},
+    {input:"/Cata/css/lg.css"     , output:"/Cata/css/done"},
+    {input:"/Cata/css/md.css"     , output:"/Cata/css/done"},
+    {input:"/Cata/css/sm.css"     , output:"/Cata/css/done"},
+
+
   ];
   cssloop(paths);
   console.log(__dirname);
