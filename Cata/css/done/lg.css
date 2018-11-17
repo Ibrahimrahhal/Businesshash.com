@@ -234,6 +234,7 @@ transform: scale(1.7) rotate(20deg);
 }
 
 main {
+margin-top: 60px;
 display: grid;
 grid-template-areas: 'area1 area2 area3 area4' 'area5 area6 area6 area7';
 align-items: center;
