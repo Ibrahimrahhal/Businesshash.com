@@ -1,3 +1,12 @@
+
+.main-title{
+color: #da1f26;
+font-family: Cairo;
+width: 100%;
+background-color: #ffffff;
+text-align: center;
+font-size: 1.8rem;
+}
 main {
 margin-top: 50px;
 display: grid;

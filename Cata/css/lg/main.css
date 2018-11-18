@@ -1,5 +1,14 @@
+.main-title{
+color: #da1f26;
+font-family: Cairo;
+width: 100%;
+background-color: #ffffff;
+text-align: center;
+font-size: 2.1rem;
+}
+
 main {
-margin-top: 60px;
+margin-top: 40px;
 display: grid;
 grid-template-areas: 'area1 area2 area3 area4' 'area5 area6 area6 area7';
 align-items: center;
