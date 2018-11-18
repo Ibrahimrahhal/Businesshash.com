@@ -42,6 +42,9 @@ gulp.task('default', () =>{
     {input:"/Cata/css/lg.css"     , output:"/Cata/css/done"},
     {input:"/Cata/css/md.css"     , output:"/Cata/css/done"},
     {input:"/Cata/css/sm.css"     , output:"/Cata/css/done"},
+    {input:"/Search/css/sm.css"     , output:"/Search/css/done"},
+    {input:"/Search/css/md.css"     , output:"/Search/css/done"},
+    {input:"/Search/css/lg.css"     , output:"/Search/css/done"},
 
 
   ];

@@ -6,6 +6,8 @@ width: 100%;
 background-color: #ffffff;
 text-align: center;
 font-size: 1.8rem;
+user-select: none;
+
 }
 main {
 margin-top: 50px;

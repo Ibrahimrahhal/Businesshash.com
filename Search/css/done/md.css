@@ -1,22 +1,4 @@
 
-main{
-  width: 100%;
-
-}
-
-body{
-  background-color: #da1f26;
-}
-
-body {
-padding :0;
-margin:0;
-}
-*{
-box-sizing: border-box;
-}
-
-
   .header-nav-menu{
     display: none;
   }
@@ -125,6 +107,31 @@ display: none;
 
   }
 
+.main-wrapper{
+padding: 0 20px;
+
+}
+body {
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+overflow-x: hidden;
+}
+
+main {
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+  float: right;
+}
+aside {
+display: none;
+
+
+}
+
 
 
 
@@ -155,17 +162,17 @@ border: solid 1px #ffffff;
 
 .header-nav-searchbar-submit{
 border-collapse: inherit;
-border: solid 1px #ffffff;
+
 height: 80%;
-/* border: 0; */
+border: 0;
 background-color: #ffffff;
 outline: 0;
 width: 60px;
 cursor: pointer;
-/* display: hidden; */
+display: hidden;
 transition: all 0.4s;
-/* opacity:0; */
-/* transform: translateX(50px); */
+opacity:0;
+transform: translateX(50px);
 
 
 }
@@ -277,62 +284,6 @@ transition: all 0.4s;
 
 transform: scale(1.7) rotate(20deg);
 
-
-}
-
-
-.main-title{
-color: #da1f26;
-font-family: Cairo;
-width: 100%;
-background-color: #ffffff;
-text-align: center;
-font-size: 1.8rem;
-user-select: none;
-
-}
-main {
-margin-top: 50px;
-display: grid;
-grid-template-areas: 'area1 area2 ' 'area3 area4 ' 'area5 area6 ';
-align-items: center;
-justify-content: center;
-grid-row-gap: 50px;
-grid-column-gap: 50px;
-align-content: center;
-position: relative;
-z-index: 500;
-}
-.cata-item,.cata-item:link,.cata-item:visited{
-width: 150px;
-height: 150px;
-border-radius: 45%;
-background-color: #ffffff;
-display: flex;
-align-items: center;
-justify-content: center;
-text-decoration: none;
-transition: all 0.4s;
-margin: 0 auto;
-box-sizing: content-box;
-box-shadow: 0 2px  5px 1px rgba(0,0,0,0.2);
-}
-.cata-item:hover{
-border-radius: 35%;
-box-shadow: 0 2px  5px 3px rgba(0,0,0,0.2);
-transform: rotate(5deg) scale(1.1);
-
-}
-.cata-item-text {
-
-width: 100%;
-display: block;
-background-color: #da1f26;
-font-family: Cairo;
-text-align: center;
-color: #ffffff;
-box-sizing: content-box;
-padding: 5px 0;
 
 }
 
