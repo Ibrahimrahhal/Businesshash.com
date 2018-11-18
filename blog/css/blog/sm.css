@@ -2,5 +2,5 @@
 @import "sm/blog-main-sm.css";
 @import "sm/blog-search-sm.css";
 @import "sm/blog-text-sm.css";
-@import "sm/footer-sm.css";
+@import "../../../global_css/footer-sm.css";
 @import "fonts.css";

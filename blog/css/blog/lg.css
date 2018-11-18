@@ -6,5 +6,5 @@
 @import "lg/blog-main.css";
 @import "lg/blog-search.css";
 @import "lg/blog-text.css";
-@import "lg/footer.css";
+@import "../../../global_css/footer.css";
 @import "fonts.css";

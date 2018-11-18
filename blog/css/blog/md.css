@@ -2,5 +2,5 @@
 @import "md/blog-main-md.css";
 @import "md/blog-search-md.css";
 @import "md/blog-text-md.css";
-@import "md/footer-md.css";
+@import "../../../global_css/footer-md.css";
 @import "fonts.css";

@@ -28,17 +28,17 @@ border: solid 1px #ffffff;
 
 .header-nav-searchbar-submit{
 border-collapse: inherit;
-
+border: solid 1px #ffffff;
 height: 80%;
-border: 0;
+/* border: 0; */
 background-color: #ffffff;
 outline: 0;
 width: 60px;
 cursor: pointer;
-display: hidden;
+/* display: hidden; */
 transition: all 0.4s;
-opacity:0;
-transform: translateX(50px);
+/* opacity:0; */
+/* transform: translateX(50px); */
 
 
 }

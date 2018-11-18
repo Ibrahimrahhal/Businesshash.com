@@ -275,7 +275,7 @@ width: 100%;
 
   .page-four-footer-upper{
   display: flex;
-    width: 90%;
+    width: 80%;
     height: 60%;
     justify-content: center;
   }
@@ -293,8 +293,6 @@ justify-content: center;
 .page-four-footer-bottom-text{
   color: #ffffff;
   font-family: Cairo;
-  text-align: center;
-  font-size: 1rem;
 }
 
 .page-four-footer-upper-left{
@@ -307,7 +305,7 @@ width: 100%;
 
 }
 .page-four-footer-upper-left-logo{
-  height:50%;
+  height:70%;
 }
 .page-four-footer-upper-left-copy{
   color: #ffffff;

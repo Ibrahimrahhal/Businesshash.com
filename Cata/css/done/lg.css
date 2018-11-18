@@ -74,13 +74,13 @@ font-family: Cairo;
 text-decoration: none;
 padding: 5px 20px;
 box-sizing: border-box;
-border-bottom: solid 2px #da1f26;
-transition: all 0.3s;
+
+
 }
 .header-nav-menu-text:hover{
 
-border-bottom: solid 2px #ffffff;
-
+background-color:#ffffff;
+color: #DA1F26;
 }
 
 
