@@ -14,6 +14,8 @@
   <?php
   include __DIR__."\\..\\php_modules\\"."header.php";
   ?>
+<div class="main-wrapper">
+
 
     <aside>
       <?php
@@ -24,6 +26,24 @@
 
     <main>
 
+  <?php
+      include __DIR__."\\item_dynamix.php";
+        s_item("#","عنوان مقترح",
+        "شرح شرح شرح شرح شرح شرح شرح شرح شرح شرح شرح شر "
+        ," ");
+   ?>
+
+
+
+
     </main>
+    </div>
+
+    <script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+        document.getElementsByClassName("header-nav-menu-res")[0].classList.toggle("hidden");
+    }
+    </script>
   </body>
 </html>
