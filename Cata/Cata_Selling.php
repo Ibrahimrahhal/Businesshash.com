@@ -19,13 +19,11 @@
     <h1 class="main-title">اختر من اقوى تصنيفات المقالات المفيدة في عالم الريادة</h1>
     <main>
 
-      <a class="cata-item"href="#"><span class="cata-item-text">مصطلحات أعمال</span></a>
-      <a class="cata-item"href="#"><span class="cata-item-text">إدارة أعمال</span></a>
-      <a class="cata-item"href="#"><span class="cata-item-text"> إقتصاد أعمال</span></a>
-      <a class="cata-item"href="Cata_Marketing.php"><span class="cata-item-text">تسويق </span></a>
-      <a class="cata-item"href="Cata_Selling.php"><span class="cata-item-text"> مبيعات</span></a>
-      <a class="cata-item general"href="#"><span class="cata-item-text "> عام</span></a>
-      <a class="cata-item"href="#"><span class="cata-item-text tools"> أدوات</span></a>
+      <a class="cata-item"href="#"><span class="cata-item-text"> مبيعات من شركة الى شركة</span></a>
+      <a class="cata-item"href="#"><span class="cata-item-text">مبيعات من شركة الى افراد</span></a>
+      <a class="cata-item"href="#"><span class="cata-item-text"> مبيعات على الانترنت </span></a>
+    
+
 
     </main>
     <script>

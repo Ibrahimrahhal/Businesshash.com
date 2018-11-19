@@ -46,9 +46,7 @@
 
   <input type="search" placeholder="ابحث هنا" class="page-one-main-input-search" />
 </form>
-<div class="icon-reveal-main">
-
-</div>
+<a href="../Cata/Cata.php" class="cata-btn">تصفح كل الاقسام</a>
 
 </main>
 </div>

@@ -601,7 +601,23 @@ padding: 0;
 
 
 }
+.main-call-to-action,
+.main-call-to-action:link,
+.main-call-to-action:visited{
+text-decoration: none;
+color: #da1f26;
+background-color: #ffffff;
+padding: 5px 100px;
+font-family: Cairo;
+transition: border-radius 0.4s, transform 1s;
+font-size: 1.5rem;
+transform: translateY(-20px);
 
+}
+.main-call-to-action:hover {
+transform: translateY(0) scale(1.2);
+border-radius: 10px;
+}
 .hero-lg{
 background-color: #DA1F26;
 height: 100%;
@@ -610,7 +626,7 @@ width: 100vw;
 }
 
 .hero-sm {
-
+flex-direction: column;
 width: 100%;
 height:50%;
 display: flex;

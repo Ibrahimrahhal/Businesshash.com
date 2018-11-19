@@ -173,6 +173,25 @@ opacity: 0;
 visibility: hidden;
 }
 
+
+.cata-btn,.cata-btn:visited, .cata-btn:link{
+text-decoration: none;
+color:#ffffff;
+font-family: Cairo;
+border:solid 1px #ffffff;
+padding: 5px 20px;
+border-radius: 5px;
+transition: all 0.3s;
+
+}
+
+.cata-btn:hover {
+background-color: #ffffff;
+color:#da1f26;
+
+transform: scale(1.1);
+}
+
 .page-two-pic-section{
 height: 45%;
 width: 100%;

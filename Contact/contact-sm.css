@@ -16,6 +16,13 @@ width: 100vw;
 
 }
 
+.leave-message{
+text-align: center;
+color: #da1f26;
+font-family: Cairo;
+font-size: 1.4rem;
+
+}
 .color-layer{
 background-color: rgba(218,31,38,0.9);
 position: absolute;
@@ -126,19 +133,20 @@ width: 100%;
 
 }
 .input-feild{
-border-color: rgba(218,31,38,0.7);
-border-width: 2px;
-border-radius: 5px;
-border-style: solid;
-text-align: right;
-font-family: Cairo;
-/* font-weight: 400; */
-margin : 0 20px;
-margin-top: 20px;
-width: 65%;
-height: 30px;
-transition: all 0.5s;
-padding: 0 10px;
+  outline: 0;
+  border-style: none;
+  text-align: right;
+  font-family: Cairo;
+  /* font-weight: 400; */
+  margin : 0 20px;
+  margin-top: 10px;
+  width:90%;
+  height: 30px;
+  transition: all 0.5s;
+  padding: 0 10px;
+  background-color: #da1f26;
+  opacity: 0.8;
+  color: #ffffff;
 }
 input:focus {
 outline: 0;
@@ -163,10 +171,9 @@ font-family: Changa;
 
 }
 .message-box{
-  border-color: rgba(218,31,38,0.7);
-  border-width: 2px;
-  border-radius: 5px;
-  border-style: solid;
+  background-color: #da1f26;
+  color: #ffffff;
+  border-style: none;
   width: 80%;
   height: 200px;
   transition: all 0.5s;
@@ -175,7 +182,8 @@ font-family: Changa;
   text-align: right;
   display: block;
   font-family: Cairo;
-resize: none;
+  opacity: 0.8;
+  resize: none;
 }
 
 .contact-hash{
