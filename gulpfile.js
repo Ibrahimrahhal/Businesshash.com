@@ -44,7 +44,6 @@ paths.forEach((path)=>{
 });
 
 
-
 }
 gulp.task('default', () =>{
   var paths =[
