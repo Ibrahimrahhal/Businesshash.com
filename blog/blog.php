@@ -94,7 +94,7 @@
 <br />
 <br />
 <?php
-include __DIR__."\\..\\php_modules\\"."widget.php";
+require __DIR__."\\..\\php_modules\\"."widget.php";
 
  ?>
 
