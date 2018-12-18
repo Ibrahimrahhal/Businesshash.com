@@ -1,6 +1,9 @@
 @import "sm/page-one-sm.css";
-@import "sm/page-two-sm.css";
+@import "sm/cata-sm.css";
 @import "sm/page-three-sm.css";
 @import "../../global_css/footer-sm.css";
 @import "fonts.css";
-@import "fullpage.css";
+.section{
+  width: 100% !important;
+  height: 100vh;
+}

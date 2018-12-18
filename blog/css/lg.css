@@ -1,6 +1,9 @@
 @import "lg/page-one.css";
-@import "lg/page-two.css";
+@import "lg/cata.css";
 @import "lg/page-three.css";
 @import "../../global_css/footer.css";
 @import "fonts.css";
-@import "fullpage.css";
+.section{
+  width: 100% !important;
+  height: 100vh;
+}

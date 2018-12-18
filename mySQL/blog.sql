@@ -11,3 +11,10 @@ HTML MEDIUMTEXT NOT NULL,
 views INT,
 date_created DATE
 );
+
+CREATE TABLE emails(
+email_id INT PRIMARY KEY AUTO_INCREMENT ,
+name VARCHAR(50),
+email VARCHAR(100),
+reason VARCHAR(50)
+);

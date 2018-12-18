@@ -1,6 +1,9 @@
 @import "md/page-one-md.css";
-@import "md/page-two-md.css";
+@import "md/cata-md.css";
 @import "md/page-three-md.css";
 @import "../../global_css/footer-md.css";
 @import "fonts.css";
-@import "fullpage.css";
+.section{
+  width: 100% !important;
+  height: 100vh;
+}

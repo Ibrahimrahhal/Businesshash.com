@@ -50,55 +50,39 @@
 
 </main>
 </div>
-<div class="section page-two">
-  <div class="page-two-main">
+<div class="every_thing">
 
 
-<div class="page-two-pic-section" style="background-image: url('../assets/place1.jpg')">
-<!-- <img class="page-two-pic" src="../assets/place1.jpg" /> -->
-</div>
-<div class="page-two-text-section">
-<h1 class="page-two-text-section-title">عنوان المقاله</h1>
-<div class="page-two-text-section-text">
-  أصبح من المعروف أنّ مرض السكري الذي يُؤثّر في مستويات السكر والإنسولين في الدم لا شفاء نهائي منه حتى الآن، ويجب التعايش مع هذا المرض والمحافظة على نسب سكر معتدلة لتفادي حدوث المضاعفات، وتجدر الإشارة إلى أنّ هناك نوعان لمرض السكري
-
-
-<span class="not-res-text">
-  يُعتبر الصبّار (بالإنجليزيّة: Aloe vera) من النباتات ذات الأهميّة المعروفة، خاصّة فيما يتعلق بحماية الجلد من حروق الشمس والتقليل من التلف الناتج عنها، والجديد أنّ خلاصة نبات الصبار قد تُساعد على تحسين أعراض مرض السكر
-
-
-
-</span>
-</div>
-<a class="page-two-text-section-button" href="#">أكمل القراءة</a>
-</div>
-</div>
-</div>
-<div class="section page-three">
-  <div class="page-three-main">
-
-
-
-<div class="page-three-text-section">
-  <h1 class="page-three-text-section-title">عنوان المقاله</h1>
-  <div class="page-three-text-section-text">
-    أصبح من المعروف أنّ مرض السكري الذي يُؤثّر في مستويات السكر والإنسولين في الدم لا شفاء نهائي منه حتى الآن، ويجب التعايش مع هذا المرض والمحافظة على نسب سكر معتدلة لتفادي حدوث المضاعفات، وتجدر الإشارة إلى أنّ هناك نوعان لمرض السكري
-
-
-  <span class="not-res-text">
-    يُعتبر الصبّار (بالإنجليزيّة: Aloe vera) من النباتات ذات الأهميّة المعروفة، خاصّة فيما يتعلق بحماية الجلد من حروق الشمس والتقليل من التلف الناتج عنها، والجديد أنّ خلاصة نبات الصبار قد تُساعد على تحسين أعراض مرض السكر
-
-
-
-  </span>
-  </div>
-  <a class="page-three-text-section-button" href="#">أكمل القراءة</a>
-</div>
-<div class="page-three-pic-section" style="background-image: url('../assets/place2.jpg')">
+<div class="cata">
+  <a class="cata-item"href="#"><span class="cata-item-text">مصطلحات أعمال</span></a>
+  <a class="cata-item"href="#"><span class="cata-item-text">إدارة أعمال</span></a>
+  <a class="cata-item"href="#"><span class="cata-item-text"> إقتصاد أعمال</span></a>
+  <a class="cata-item"href="Cata_Marketing.php"><span class="cata-item-text">تسويق </span></a>
+  <a class="cata-item"href="Cata_Selling.php"><span class="cata-item-text"> مبيعات</span></a>
+  <a class="cata-item general"href="#"><span class="cata-item-text "> عام</span></a>
+  <a class="cata-item"href="#"><span class="cata-item-text tools"> أدوات</span></a>
 
 </div>
+<div class="_results">
+  <?php
+      include __DIR__."\\..\\Search\\item_dynamix.php";
+        s_item("#","عنوان مقترح",
+        "شرح شرح شرح شرح شرح شرح شرح شرح شرح شرح شرح شر "
+        ," ");
+        s_item("#","عنوان مقترح",
+        "شرح شرح شرح شرح شرح شرح شرح شرح شرح شرح شرح شر "
+        ," ");
+        s_item("#","عنوان مقترح",
+        "شرح شرح شرح شرح شرح شرح شرح شرح شرح شرح شرح شر "
+        ," ");
+        s_item("#","عنوان مقترح",
+        "شرح شرح شرح شرح شرح شرح شرح شرح شرح شرح شرح شر "
+        ," ");
+        s_item("#","عنوان مقترح",
+        "شرح شرح شرح شرح شرح شرح شرح شرح شرح شرح شرح شر "
+        ," ");
+   ?>
 </div>
-
 
 </div>
 <div class="section page-four">
@@ -113,8 +97,6 @@
 </div>
 
 <script src="../vendors/JQuery/jquery-3.3.1.min.js"></script>
-<script src="../vendors/fullpage/fullpage.js"></script>
-<script src="../modules/fullpage.js"></script>
 <script src="modules/jquery-menu.js"></script>
 <script src="modules/jquery-scale.js"></script>
 </body>

@@ -116,39 +116,7 @@
 
 
 
-<div class="page-three section">
-    <img src="assets/circle1.svg" class="img-circle pagethree-img-circle " />
-    <div class="sec-nav">
-      <img class="logo-afterscroll" src="assets/Logoheader.svg">
 
-    </div>
-    <br>
-  <div class="pagethree-main-section">
-
-  <div class="pagethree-main-text-repper paddingh">
-  <h1 class="pagethree-main-sub">مبتدأ في ريادة الأعمال وتفكر في بدأ شركتك ؟</h1>
-      <h2 class="pagethree-main-sub-light">إبدأ بقوة وإلتحق بإحدى مساراتنا التعليمة المجانية</h2>
-      <a href="#" class="pagethree-calltoation">إبدا التعلم الأن</a>
-</div>
-<div class="pagetwo-main-blogs-1-con round-img-cont">
-<img class="pagetwo-main-blogs-1 " src="" />
-<h3 class="round-img-cont-title"></h3>
-</div>
-
-<div class="pagetwo-main-blogs-2-con round-img-cont">
-<img class="pagetwo-main-blogs-2" src="" />
-<h3 class="round-img-cont-title"></h3>
-</div>
-
-<div class="pagetwo-main-blogs-3-con round-img-cont">
-<img class="pagetwo-main-blogs-3" src="" />
-<h3 class="round-img-cont-title"></h3>
-</div>
-
-
-
-</div>
-</div>
 
 
 
@@ -162,7 +130,7 @@
 <script src="vendors/fullpage/fullpage.js"></script>
 <script src="modules/fullpage.js"></script>
 <script src="vendors/JQuery/jquery-3.3.1.min.js"></script>
-<script src="modules/jquery.js"></script>
+<!-- <script src="modules/jquery.js"></script> -->
 <script src="vendors/JQuery-TypeType/jquery.typetype.min.js"></script>
 <script src="modules/typetype.js"></script>
 </body>
